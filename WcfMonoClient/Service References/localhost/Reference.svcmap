@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="942f74c9-a8f3-46b3-8570-017e9c166666" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>false</GenerateTaskBasedAsynchronousMethod>
+    <GenerateEventBasedAsynchronousMethods>false</GenerateEventBasedAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/MyService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyService.wsdl" MetadataType="Wsdl" ID="c12d7db1-9cc3-4a0a-97d0-44e7850a758b" SourceId="1" SourceUrl="http://localhost:8000/MyService?wsdl" />
+    <MetadataFile FileName="MyService.xsd" MetadataType="Schema" ID="96b93ae6-2c8b-4f25-bc87-935eac12f298" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd0" />
+    <MetadataFile FileName="MyService.disco" MetadataType="Disco" ID="1ddb8ea1-5335-41bd-a2f9-3a0513788ec2" SourceId="1" SourceUrl="http://localhost:8000/MyService?disco" />
+    <MetadataFile FileName="MyService0.xsd" MetadataType="Schema" ID="5c320065-ea91-48f1-82fc-2f7804deb254" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd1" />
+  </Metadata>
+</ReferenceGroup>

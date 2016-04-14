@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMonoService", "WcfMonoService\WcfMonoService.csproj", "{B71A8FB3-2D13-42D0-AFBC-870891CD4055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMonoClient", "WcfMonoClient\WcfMonoClient.csproj", "{22B38BAE-F7E5-422C-8F96-03198BD728D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22B38BAE-F7E5-422C-8F96-03198BD728D3}.Debug|x86.ActiveCfg = Debug|x86
+		{22B38BAE-F7E5-422C-8F96-03198BD728D3}.Debug|x86.Build.0 = Debug|x86
+		{22B38BAE-F7E5-422C-8F96-03198BD728D3}.Release|x86.ActiveCfg = Release|x86
+		{22B38BAE-F7E5-422C-8F96-03198BD728D3}.Release|x86.Build.0 = Release|x86
+		{B71A8FB3-2D13-42D0-AFBC-870891CD4055}.Debug|x86.ActiveCfg = Debug|x86
+		{B71A8FB3-2D13-42D0-AFBC-870891CD4055}.Debug|x86.Build.0 = Debug|x86
+		{B71A8FB3-2D13-42D0-AFBC-870891CD4055}.Release|x86.ActiveCfg = Release|x86
+		{B71A8FB3-2D13-42D0-AFBC-870891CD4055}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
