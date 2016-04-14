@@ -1,2 +1,16 @@
-"# WcfMonoService" 
 "# wcf-mono" 
+
+# Mono WCF example
+
+Basic example of WCF Services with Mono. WCF is *Windows Communication Foundation*.
+
+## Run
+* Open the `WcfMonoService.sln` file with either MonoDevelop, Xamarin Studio or Visual Studio.
+* Build the solution
+* Start the solution
+
+It should start two console applications - service and client.
+
+## Structure
+* `WcfMonoClient/` Console application - consumes the service.
+* `WcfMonoService/` Console application - hosts the WCF service via HTTP dual binding.
