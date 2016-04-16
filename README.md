@@ -1,5 +1,3 @@
-"# wcf-mono" 
-
 # Mono WCF example
 
 Basic example of WCF Services with Mono. WCF is *Windows Communication Foundation*.
@@ -13,4 +11,12 @@ It should start two console applications - service and client.
 
 ## Structure
 * `WcfMonoClient/` Console application - consumes the service.
-* `WcfMonoService/` Console application - hosts the WCF service via HTTP dual binding.
+* `WcfMonoService/` Console application - hosts the WCF service.
+
+## Configuration
+Service/client configuration is written in App.config files for both client and service. 
+* netNamedPipeBinding
+* wsDualHttpBinding
+* basicHttpBinding
+
+
