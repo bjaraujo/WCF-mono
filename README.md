@@ -18,6 +18,7 @@ Service/client configuration is written in App.config files for both client and 
 * netNamedPipeBinding
 * wsDualHttpBinding
 * basicHttpBinding
+* netTcpBinding
 
 Notes: 
 
