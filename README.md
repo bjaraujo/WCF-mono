@@ -19,4 +19,8 @@ Service/client configuration is written in App.config files for both client and 
 * wsDualHttpBinding
 * basicHttpBinding
 
+Notes: 
+
+* Might be necessary to run service as administrator.
+* wsDualHttpBinding doesn't seem to be implemented in linux yet, raising NotImplementedException. 
 
