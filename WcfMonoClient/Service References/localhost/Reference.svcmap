@@ -18,9 +18,9 @@
     <MetadataSource Address="http://localhost:8000/MyService" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MyService.wsdl" MetadataType="Wsdl" ID="c12d7db1-9cc3-4a0a-97d0-44e7850a758b" SourceId="1" SourceUrl="http://localhost:8000/MyService?wsdl" />
-    <MetadataFile FileName="MyService.xsd" MetadataType="Schema" ID="96b93ae6-2c8b-4f25-bc87-935eac12f298" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd0" />
-    <MetadataFile FileName="MyService.disco" MetadataType="Disco" ID="1ddb8ea1-5335-41bd-a2f9-3a0513788ec2" SourceId="1" SourceUrl="http://localhost:8000/MyService?disco" />
-    <MetadataFile FileName="MyService0.xsd" MetadataType="Schema" ID="5c320065-ea91-48f1-82fc-2f7804deb254" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd1" />
+    <MetadataFile FileName="MyService.wsdl" MetadataType="Wsdl" ID="897dcf24-391d-4a51-87e9-cbb6513f8c5e" SourceId="1" SourceUrl="http://localhost:8000/MyService?wsdl" />
+    <MetadataFile FileName="MyService.xsd" MetadataType="Schema" ID="2b23aef3-6d1d-43bb-807c-6612a02b80a0" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd0" />
+    <MetadataFile FileName="MyService.disco" MetadataType="Disco" ID="a8498af3-b585-4cd6-9d95-2005a7685a0b" SourceId="1" SourceUrl="http://localhost:8000/MyService?disco" />
+    <MetadataFile FileName="MyService0.xsd" MetadataType="Schema" ID="28bbd1a7-085a-41f4-ba77-3aed18a6ddb9" SourceId="1" SourceUrl="http://localhost:8000/MyService?xsd=xsd1" />
   </Metadata>
 </ReferenceGroup>
