@@ -9,9 +9,7 @@ namespace WcfMonoService
 		public static void Main (string[] args)
 		{
 
-			var address = new Uri ("http://localhost:8000/MyService");
-
-			ServiceHost host = new ServiceHost (typeof(MyService), address);
+			ServiceHost host = new ServiceHost (typeof(MyService));
 			host.Open ();
 
 			Console.WriteLine ("Press ENTER to close host");
