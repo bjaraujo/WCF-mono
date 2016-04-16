@@ -10,14 +10,12 @@ namespace WcfMonoClient
 		public static void Main (string[] args)
 		{
 
-			MyServiceClient dualHttpClient = new MyServiceClient( new WSDualHttpBinding (), new EndpointAddress ("http://localhost:8000/MyService/dual"));
-			MyServiceClient namedPipeClient = new MyServiceClient( new NetNamedPipeBinding (), new EndpointAddress ("net.pipe://localhost/MyService/pipe"));
-							
-			Console.WriteLine ("WSDualHttpBinding: " + dualHttpClient.GetData ());
-			Console.WriteLine ("NetNamedPipeBinding: " + namedPipeClient.GetData ());
+			MyServiceClient client = new MyServiceClient ("dual");
+
+			Console.WriteLine (client.GetData ());
 
 			Console.ReadLine ();
-			dualHttpClient.Close ();
+			client.Close ();
 
 		}
 	}

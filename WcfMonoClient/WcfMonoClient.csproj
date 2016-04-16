@@ -61,4 +61,9 @@
     </None>
     <None Include="Service References\localhost\MyService.disco" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
