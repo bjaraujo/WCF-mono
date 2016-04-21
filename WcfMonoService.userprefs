@@ -1,17 +1,18 @@
 ﻿<Properties StartupItem="WcfMonoService\WcfMonoService.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WcfMonoClient\App.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WcfMonoClient\packages.config">
     <Files>
-      <File FileName="WcfMonoService\App.config" Line="17" Column="20" />
+      <File FileName="WcfMonoService\App.config" Line="1" Column="1" />
       <File FileName="WcfMonoClient\App.config" Line="13" Column="20" />
       <File FileName="WcfMonoService\Program.cs" Line="1" Column="1" />
       <File FileName="WcfMonoService\MyService.cs" Line="1" Column="1" />
       <File FileName="WcfMonoService\Properties\AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="WcfMonoClient\Program.cs" Line="9" Column="3" />
+      <File FileName="WcfMonoClient\Program.cs" Line="1" Column="1" />
       <File FileName="WcfMonoClient\Properties\AssemblyInfo.cs" Line="1" Column="1" />
       <File FileName="WcfMonoClient\Service References\localhost\Reference.cs" Line="1" Column="1" />
       <File FileName="WcfMonoService\IMyService.cs" Line="1" Column="1" />
       <File FileName="WcfMonoClient\Service References\localhost\Reference.svcmap" Line="1" Column="1" />
+      <File FileName="WcfMonoClient\packages.config" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
