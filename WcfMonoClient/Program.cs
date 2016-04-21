@@ -17,7 +17,7 @@ namespace WcfMonoClient
             try
             {
 
-                MyServiceClient client = new MyServiceClient("dual");
+                MyServiceClient client = new MyServiceClient("tcp");
 
                 Console.WriteLine(client.GetData());
 
