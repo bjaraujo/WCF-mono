@@ -5,30 +5,30 @@ using NLog;
 
 namespace WcfMonoService
 {
-	class MainClass
-	{
+    class MainClass
+    {
 
-		private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
-		public static void Main (string[] args)
-		{
+        public static void Main(string[] args)
+        {
 
-			try
-			{
+            try
+            {
 
-				ServiceHost host = new ServiceHost (typeof(MyService));
-				host.Open ();
+                ServiceHost host = new ServiceHost(typeof(MyService));
+                host.Open();
 
-				Console.WriteLine ("Press ENTER to close host");
-				Console.ReadLine ();
-				host.Close ();
+                Console.WriteLine("Press ENTER to close host");
+                Console.ReadLine();
+                host.Close();
 
-			}
-			catch(Exception ex) 
-			{
-				logger.Error(ex.Message);
-			}
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex.Message);
+            }
 
-		}
-	}
+        }
+    }
 }

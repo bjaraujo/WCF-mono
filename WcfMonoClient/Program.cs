@@ -6,30 +6,30 @@ using NLog;
 
 namespace WcfMonoClient
 {
-	class MainClass
-	{
+    class MainClass
+    {
 
-		private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
-		public static void Main (string[] args)
-		{
+        public static void Main(string[] args)
+        {
 
-			try
-			{
-				
-				MyServiceClient client = new MyServiceClient ("dual");
+            try
+            {
 
-				Console.WriteLine (client.GetData ());
+                MyServiceClient client = new MyServiceClient("dual");
 
-				Console.ReadLine ();
-				client.Close ();
-			
-			}
-			catch(Exception ex) 
-			{
-				logger.Error(ex.Message);
-			}
+                Console.WriteLine(client.GetData());
 
-		}
-	}
+                Console.ReadLine();
+                client.Close();
+
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex.Message);
+            }
+
+        }
+    }
 }

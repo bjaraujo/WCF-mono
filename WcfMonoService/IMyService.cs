@@ -4,11 +4,11 @@ using System.ServiceModel.Web;
 
 namespace WcfMonoService
 {
-	[ServiceContract]
-	public interface IMyService
-	{
-		[OperationContract, WebGet]
-		string GetData();
-	}
+    [ServiceContract]
+    public interface IMyService
+    {
+        [OperationContract, WebGet]
+        string GetData();
+    }
 }
 
