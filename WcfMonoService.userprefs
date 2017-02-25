@@ -1,8 +1,12 @@
-﻿<Properties StartupItem="WcfMonoService\WcfMonoService.csproj">
+﻿<Properties StartupConfiguration="{B71A8FB3-2D13-42D0-AFBC-870891CD4055}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WcfMonoClient\packages.config">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WcfMonoClient\App.config">
     <Files>
-      <File FileName="WcfMonoService\App.config" Line="1" Column="1" />
+      <File FileName="WcfMonoService\App.config" Line="36" Column="24" />
       <File FileName="WcfMonoClient\App.config" Line="13" Column="20" />
       <File FileName="WcfMonoService\Program.cs" Line="1" Column="1" />
       <File FileName="WcfMonoService\MyService.cs" Line="1" Column="1" />
@@ -13,10 +17,10 @@
       <File FileName="WcfMonoService\IMyService.cs" Line="1" Column="1" />
       <File FileName="WcfMonoClient\Service References\localhost\Reference.svcmap" Line="1" Column="1" />
       <File FileName="WcfMonoClient\packages.config" Line="1" Column="1" />
+      <File FileName="WcfMonoService\NLog.config" Line="1" Column="1" />
+      <File FileName="WcfMonoService\packages.config" Line="1" Column="1" />
+      <File FileName="WcfMonoClient\NLog.config" Line="10" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WcfMonoService PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
